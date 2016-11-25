@@ -10,16 +10,19 @@ namespace GabrielaMensaqueWebhooks
         public static void Register(HttpConfiguration config)
         {
             // Configuración y servicios de API web
-            config.InitializeReceivePaypalWebHooks();
+            
 
             // Rutas de API web
-            //config.MapHttpAttributeRoutes();
+            config.MapHttpAttributeRoutes();
 
-            //config.Routes.MapHttpRoute(
-            //    name: "WebhooksApi",
-            //    routeTemplate: "api/{controller}/{id}",
-            //    defaults: new { id = RouteParameter.Optional }
-            //);
+            config.Routes.MapHttpRoute(
+                name: "WebhooksApi",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+
+            //Loads PayPal
+            config.InitializeReceivePaypalWebHooks();
         }
     }
 }
