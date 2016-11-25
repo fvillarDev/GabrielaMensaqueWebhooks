@@ -34,6 +34,5 @@ D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\bin\Syste
 D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\bin\es\System.Net.Http.Formatting.resources.dll
 D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\bin\es\System.Web.Http.resources.dll
 D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\bin\es\System.Web.Http.WebHost.resources.dll
-D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\obj\Debug\GabrielaMensaqueWebhooks.csprojResolveAssemblyReference.cache
 D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\obj\Debug\GabrielaMensaqueWebhooks.dll
 D:\FACU\Proyectos\2016\GabrielaMensaqueVideos\GabrielaMensaqueWebhooks\obj\Debug\GabrielaMensaqueWebhooks.pdb

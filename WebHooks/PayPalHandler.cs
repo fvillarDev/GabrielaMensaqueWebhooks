@@ -17,12 +17,9 @@ namespace GabrielaMensaqueWebhooks.WebHooks
         {
             try
             {
-                if ("PayPal".Equals(id, StringComparison.CurrentCultureIgnoreCase))
-                {
-                    var jsonContext = JsonConvert.SerializeObject(context);
-                    var jsonRequest = JsonConvert.SerializeObject(request);
-                    DataHelper.ExecuteNonQuery("TestPayPalHandler_Insert", id, jsonContext, jsonRequest);
-                }
+                var jsonContext = JsonConvert.SerializeObject(context);
+                var jsonRequest = JsonConvert.SerializeObject(request);
+                DataHelper.ExecuteNonQuery("TestPayPalHandler_Insert", id, jsonContext, jsonRequest);
             }
             catch (Exception ex)
             {
