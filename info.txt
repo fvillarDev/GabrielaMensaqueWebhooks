@@ -1,0 +1,27 @@
+Sandbox account
+svocos2015-facilitator@gmail.com
+
+Client ID
+Af_1Y_bE08FiIIJm2qvZ4EpSyGfkwEVggX1zTZ93ltRSEuMZIqsbykKBBqrICQN9onBqGIpOXGPEB1Zm
+
+Secret
+EM_p8_hKVY04l1Jyk6GQR4lErNecKIgidqA1nWUsgP2t8T4h-ReNy687MjNj2rosZQ7U4jRbTfuECBQb
+
+
+
+2)https://gabrielamensaquevideos.apphb.com/api/paypal
+1)14D53251ET989325X
+2)2YM70902MV8460312
+
+
+
+APP HARBOR
+
+SQLSERVER_CONNECTION_STRING
+Server=048cec32-7382-48c5-b195-a6c90016ac5c.sqlserver.sequelizer.com;Database=db048cec32738248c5b195a6c90016ac5c;User ID=yckohfksrmgmrdpo;Password=nRYXzsyKzcpduHRdxmuP2JYZwVcsqBZvjAepejMNPVio6vwhTmgCV5PKZ8ALqgu7;
+
+
+Server=048cec32-7382-48c5-b195-a6c90016ac5c.sqlserver.sequelizer.com;
+Database=db048cec32738248c5b195a6c90016ac5c;
+User ID=yckohfksrmgmrdpo;
+Password=nRYXzsyKzcpduHRdxmuP2JYZwVcsqBZvjAepejMNPVio6vwhTmgCV5PKZ8ALqgu7;
