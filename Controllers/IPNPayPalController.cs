@@ -98,6 +98,7 @@ namespace GabrielaMensaqueWebhooks.Controllers
             {
                 //Log for manual investigation
                 DataHelper.ExecuteNonQuery("Logs_Insert", "INVALID: " + verificationResponse);
+                LogRequest(Request);
             }
             else
             {
