@@ -39,15 +39,15 @@ namespace GabrielaMensaqueWebhooks.Controllers
                 verificationRequest.Method = "POST";
                 verificationRequest.ContentType = "application/x-www-form-urlencoded";
                 var param = Request.BinaryRead(ipnRequest.ContentLength);
-                var strRequest = Encoding.UTF8.GetString(param);
+                var strRequest = Encoding.ASCII.GetString(param);
 
                 //Add cmd=_notify-validate to the payload
-                strRequest = "cmd=_notify-validate&" + strRequest;
+                strRequest += "&cmd=_notify-validate";
                 verificationRequest.ContentLength = strRequest.Length;
 
                 //Attach payload to the verification request
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-                var streamOut = new StreamWriter(verificationRequest.GetRequestStream(), Encoding.UTF8);
+                var streamOut = new StreamWriter(verificationRequest.GetRequestStream(), Encoding.ASCII);
                 streamOut.Write(strRequest);
                 streamOut.Close();
 
