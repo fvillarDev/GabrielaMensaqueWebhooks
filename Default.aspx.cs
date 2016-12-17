@@ -35,7 +35,7 @@ namespace GabrielaMensaqueWebhooks
 
             //queryString["shopping_url"] = "http://xpto.com/Client/Checkout";
             queryString["return"] = "http://localhost/MyMasterPage/ConfirmPayment.aspx";
-            queryString["notify_url"] = "http://gabrielamensaquevideos.apphb.com/api/IPNPayPal/Receive";
+            queryString["notify_url"] = "https://gabrielamensaquevideos.apphb.com/api/IPNPayPal/Receive";
 
             Response.Redirect("https://www.sandbox.paypal.com/cgi-bin/webscr?" + queryString.ToString());
         }

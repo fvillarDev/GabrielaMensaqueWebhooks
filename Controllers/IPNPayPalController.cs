@@ -46,7 +46,7 @@ namespace GabrielaMensaqueWebhooks.Controllers
                 verificationRequest.ContentLength = strRequest.Length;
 
                 //Attach payload to the verification request
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 var streamOut = new StreamWriter(verificationRequest.GetRequestStream(), Encoding.ASCII);
                 streamOut.Write(strRequest);
                 streamOut.Close();
